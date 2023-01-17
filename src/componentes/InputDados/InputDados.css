@@ -1,0 +1,27 @@
+.input_dados {
+   background-color: rgb(135, 136, 138);
+
+}
+
+.inputNome input {
+   border: 1px solid #c5c5c5;
+   width: 180px;
+   height: 32px;
+   border-radius: 3px;
+   margin: 5px 0 5px 0;
+   padding: 0 0 0 8px;
+
+}
+
+.inputDados button {
+   width: 100px;
+   height: 30px;
+   background: #007BFF;
+   border: 1px solid #007BFF;
+   color: #ffffff;
+   border-radius: 3px;
+   
+}
+button:disabled{
+opacity: 0.5;
+ }
