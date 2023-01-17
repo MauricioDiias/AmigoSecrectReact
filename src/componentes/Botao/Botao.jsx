@@ -1,7 +1,8 @@
 
-function Botao({disabled,onClick,text}){
+function Botao({ disabled, onClick, text }) {
+    
 
-    return<>
+    return <>
         <button disabled={disabled} onClick={onClick}>{text}</button>
 
     </>

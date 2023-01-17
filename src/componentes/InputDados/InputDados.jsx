@@ -11,7 +11,7 @@ function InputDados({ addTodo }) {
     const [id, setId] = useState(0)
 
     const todocreat = () => {
-        const todoObj = { Nome: nome, Email: email}
+        const todoObj = { nome: nome, email: email}
         // setId(id + 1)
         addTodo(todoObj)
         setNome('')
