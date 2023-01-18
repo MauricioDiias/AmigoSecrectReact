@@ -6,7 +6,7 @@ function NomeEmail({setNome,setEmail,nome,email}) {
      <div className="inputNome" >
                 <input id='input'
                     type='text'
-                    placeholder='nome'
+                    placeholder='Nome'
                     value={nome}
                     onChange={(e) => setNome(e.target.value)} />
             </div>
@@ -14,7 +14,7 @@ function NomeEmail({setNome,setEmail,nome,email}) {
             <div className="inputNome" >
                 <input id='in_email'
                     type='text'
-                    placeholder='email'
+                    placeholder='Email'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)} />
             </div>

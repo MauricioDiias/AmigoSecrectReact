@@ -4,9 +4,9 @@
 }
 
 .inputNome input {
-   border: 1px solid #c5c5c5;
+   border: 1px solid #f16232;
    width: 180px;
-   height: 32px;
+   height: 40px;
    border-radius: 3px;
    margin: 5px 0 5px 0;
    padding: 0 0 0 8px;
@@ -14,12 +14,15 @@
 }
 
 .inputDados button {
-   width: 100px;
+   width: 150px;
    height: 30px;
    background: #f16232;
    border: 1px solid #f16232;
    color: #ffffff;
    border-radius: 3px;
+   font-size: 22px;
+   text-transform: uppercase;
+   font-weight: 500;
    
 }
 button:disabled{

@@ -20,11 +20,31 @@
     color: aliceblue;
     border: 1px solid #f16232;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
     padding: 1px 6px 1px 6px;
     border-radius: 3px;
+}
+.sortear button{
+    margin-top: 20px;
+    color: #f16232;
+    width: 150px;
+    height: 34px;
+    background: #f16232;
+    border: 1px solid #f16232;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.containerLinSortear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
 }
