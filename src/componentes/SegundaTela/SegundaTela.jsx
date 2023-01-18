@@ -40,7 +40,7 @@ function Home() {
                     <Link className='voltar' to='/' state={{ nome: location.state.nome }}>Voltar</Link>
                 </div>
                 <div className='sortear'>
-                    <Botao onClick={sortear} text={'sortear'} />
+                    <Botao onClick={sortear} text={'sortear'} to='/' ></Botao>
                 </div>
             </div>
             <div className='list'>
