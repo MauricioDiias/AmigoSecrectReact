@@ -2,9 +2,9 @@ import Titulo from "../Titulo/Titulo"
 import SegundaTela from "../SegundaTela/SegundaTela"
 import PrimeiraTela from "../PrimeiraTela"
 
-import { BrowserRouter as Router, Routes, Route, Link, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 import Resultado from "../Resultado/Resultado"
-function Casa(){
+function Home(){
     return(
         <div>
             <Titulo/>
@@ -14,8 +14,8 @@ function Casa(){
 
         <Routes>
             <Route exact path='/' element={<PrimeiraTela />} />
-            <Route exact path='/company' element={<SegundaTela />} />
-            <Route exact path='/result' element={<Resultado />} />
+            <Route exact path='/company' element={<SegundaTela/>} />
+            <Route exact path='/resultado' element={<Resultado/>} />
            
         </Routes>
         {/* <p>Footer</p> */}
@@ -23,4 +23,4 @@ function Casa(){
         </div>
     )
 }
-export default Casa
+export default Home

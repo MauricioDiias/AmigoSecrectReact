@@ -1,18 +1,30 @@
-.item{
+.item {
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
-
-background-color: rgb(129, 168, 218);
-height: 35px;
-margin: 1% 30% 0 30%;
-border-radius: 3px;
+    background-color: #f16232ab;
+    height: 35px;
+    margin: 1% 30% 0 30%;
+    border-radius: 3px;
 }
-.item button{
-    background: #007BFF;
-    border: 1px solid #007BFF;
+
+.item button {
+    background: #f16232;
+    border: 1px solid #f16232;
     border-radius: 3px;
     color: aliceblue;
     margin-left: 20px;
 }
-
+.voltar{
+    background-color: #f16232;
+    color: aliceblue;
+    border: 1px solid #f16232;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1px 6px 1px 6px;
+    border-radius: 3px;
+}

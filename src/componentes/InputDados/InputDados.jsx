@@ -11,7 +11,7 @@ function InputDados({ addTodo }) {
     const [id, setId] = useState(0)
 
     const todocreat = () => {
-        const todoObj = { nome: nome, email: email}
+        const todoObj = { nome: nome, email: email }
         // setId(id + 1)
         addTodo(todoObj)
         setNome('')
@@ -21,21 +21,18 @@ function InputDados({ addTodo }) {
     return (
         <div className="inputDados">
 
-
             <NomeEmail
                 nome={nome}
                 email={email}
                 setNome={setNome}
                 setEmail={setEmail}
             />
-
             <Botao
                 text={'Adicionar'}
                 disabled={!nome && !email}
                 onClick={() => todocreat()}
             />
         </div>
-
     )
 }
 export default InputDados

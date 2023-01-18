@@ -38,26 +38,22 @@ function Home() {
 
         <div className="App">
             <div>{location.state.nome}</div>
+
             <InputDados addTodo={addTodo} />
-            <Link to='/' state={{ nome: location.state.nome }}>Primeira Tela</Link>
 
-
-
-            {todos.map((todo) => (
-                <div className="item">
-                    <div>{todo.nome}-{todo.email}<button onClick={() => deleteTodo(todo.email)}>Excluir</button></div>
-
-
-                </div>
-            ))}
-
+            <div className='lin'>
+                <Link className='voltar' to='/' state={{ nome: location.state.nome }}>Voltar</Link>
+            </div>
+            <div className='list'>
+                {todos.map((todo) => (
+                    <div className="item">
+                        <div>{todo.nome}-{todo.email}<button onClick={() => deleteTodo(todo.email)}>Excluir</button></div>
+                    </div>
+                ))}
+            </div>
             <div className='sortear'>
                 <Botao onClick={sortear} text={'sortear'} />
             </div>
-
-
-
-
         </div>
     );
 
