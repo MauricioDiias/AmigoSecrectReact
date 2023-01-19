@@ -10,7 +10,7 @@ function InputDados({ addTodo }) {
 
     const [id, setId] = useState(0)
 
-    const todocreat = () => {
+    const criarListaCasdastro = () => {
         
         const todoObj = { nome: nome, email: email }
         // setId(id + 1)
@@ -31,7 +31,7 @@ function InputDados({ addTodo }) {
             <Botao
                 text={'Adicionar'}
                 disabled={!nome && !email}
-                onClick={() => todocreat()}
+                onClick={() => criarListaCasdastro()}
             />
         </div>
     )
